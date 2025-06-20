@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Secure payment
+{% endblock %}
+{% block javascripts %}
+    <script src="{{ asset('js/payment.js') }}" defer></script>
+{% endblock %}
+
+
+{% block body %}
+
+<div class="example-wrapper">
+    <h1>Hello</h1>
+
+    
+    <ul>
+        <li>Your controller at <code>/home/symfony_test/Public/Stripe-api/app/src/Controller/PaymentController.php</code></li>
+        <li>Your template at <code>/home/symfony_test/Public/Stripe-api/app/templates/payment/index.html.twig</code></li>
+    </ul>
+</div>
+{% endblock %}
