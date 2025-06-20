@@ -2,7 +2,7 @@
 
 ---
 
-![Image d'illustration](public/images/screenshoot.png)
+![Image d'illustration](../public/images/screenshoot.png)
 
 
 Ce projet Symfony implémente un système de paiement via Stripe Checkout, avec gestion des commandes et webhook pour la validation des paiements.
